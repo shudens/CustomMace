@@ -71,3 +71,6 @@ custommace.use → /mace komutu için
 custommace.reload → /macereload komutu için
 
 custommace.enchant → /macebuyu komutu için
+
+
+## Dikkat Bu Plugin sHuDev Ve LemonyMC İle Kodlanmıştır
