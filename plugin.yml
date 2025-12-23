@@ -1,0 +1,28 @@
+name: CustomMace
+main: com.lemonymc.mace.Main
+version: 1.0
+api-version: 1.17
+author: sHuDev/LemonyMC
+commands:
+  mace:
+    description: Mace verir.
+    usage: /mace
+    permission: custommace.admin
+  macebuyu:
+    description: Mace'e ozel buyuler ekler.
+    usage: '/macebuyu <Breach|Density|WindBurst>'
+    permission: custommace.enchant
+  macereload:
+    description: Mace dosyalarını yeniler.
+    usage: /macereload
+    permission: custommace.reload
+permissions:
+  custommace.admin:
+    description: Mace alma yetkisi.
+    default: op
+  custommace.enchant:
+    description: Mace'e buyu ekleme yetkisi.
+    default: op
+  custommace.reload:
+    description: Mace dosyalarını yeniler.
+    default: op
